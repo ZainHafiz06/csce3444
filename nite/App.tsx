@@ -19,7 +19,9 @@ import HomeFindScreen from './src/screens/HomeFindScreen';
 import HomePlanScreen from './src/screens/HomePlanScreen';
 import LiveLinesScreen from './src/screens/LiveLinesScreen';
 import SafeRouteScreen from './src/screens/SafeRouteScreen';
-import { CrashLinkScreen, FinderScreen, GhostScreen } from './src/screens/features';
+import CrashLinkScreen from './src/screens/CrashLinkScreen';
+import GhostScreen from './src/screens/GhostScreen';
+import FinderScreen from './src/screens/FinderScreen';
 import { COLORS } from './src/theme';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
